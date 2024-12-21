@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672AA4FD2D1699C30092FF63 /* PlaceImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672AA4FC2D1699C30092FF63 /* PlaceImages.swift */; };
+		672AA4FF2D169A150092FF63 /* PlaceTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672AA4FE2D169A150092FF63 /* PlaceTips.swift */; };
+		67BC92632C8984F0003D6C18 /* DallasWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC92622C8984F0003D6C18 /* DallasWayTests.swift */; };
+		67BC92662C898508003D6C18 /* DallasWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC92642C898508003D6C18 /* DallasWayTests.swift */; };
+		67BC92672C898508003D6C18 /* DallasWayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BC92652C898508003D6C18 /* DallasWayUITestsLaunchTests.swift */; };
+		67E51E6D2CFE0B6200A58F7D /* ExplorerAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E51E6C2CFE0B6200A58F7D /* ExplorerAPIService.swift */; };
+		67E51E6F2D0862BF00A58F7D /* ExplorerMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E51E6E2D0862BF00A58F7D /* ExplorerMapView.swift */; };
+		67E51E712D13634A00A58F7D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E51E702D13634A00A58F7D /* LocationManager.swift */; };
+		67E51E732D13657C00A58F7D /* PlacesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E51E722D13657C00A58F7D /* PlacesResponse.swift */; };
+		67E51E762D136CB100A58F7D /* CLLocationCoordinate2D+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E51E752D136CB100A58F7D /* CLLocationCoordinate2D+Extensions.swift */; };
+		67E51E782D13702A00A58F7D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E51E772D13702A00A58F7D /* View+Extensions.swift */; };
+		67F8CC9E2C79588000D49651 /* DallasWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F8CC9D2C79588000D49651 /* DallasWay.swift */; };
+		67F8CCA02C79588000D49651 /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F8CC9F2C79588000D49651 /* MainTabbedView.swift */; };
+		67F8CCA22C79588200D49651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F8CCA12C79588200D49651 /* Assets.xcassets */; };
+		67F8CCA62C79588200D49651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F8CCA52C79588200D49651 /* Preview Assets.xcassets */; };
+		67F8CCE92C795EEA00D49651 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F8CCE82C795EEA00D49651 /* ExploreView.swift */; };
+		67F8CCEB2C795F8F00D49651 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F8CCEA2C795F8F00D49651 /* ExploreViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67F8CCAC2C79588200D49651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F8CC922C79588000D49651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F8CC992C79588000D49651;
+			remoteInfo = Dallaspere;
+		};
+		67F8CCB62C79588200D49651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F8CC922C79588000D49651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F8CC992C79588000D49651;
+			remoteInfo = Dallaspere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		672AA4FC2D1699C30092FF63 /* PlaceImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceImages.swift; sourceTree = "<group>"; };
+		672AA4FE2D169A150092FF63 /* PlaceTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTips.swift; sourceTree = "<group>"; };
+		67BC92622C8984F0003D6C18 /* DallasWayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DallasWayTests.swift; path = DallasWayTests/DallasWayTests.swift; sourceTree = SOURCE_ROOT; };
+		67BC92642C898508003D6C18 /* DallasWayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DallasWayTests.swift; path = DallasWayUITests/DallasWayTests.swift; sourceTree = SOURCE_ROOT; };
+		67BC92652C898508003D6C18 /* DallasWayUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DallasWayUITestsLaunchTests.swift; path = DallasWayUITests/DallasWayUITestsLaunchTests.swift; sourceTree = SOURCE_ROOT; };
+		67E51E6C2CFE0B6200A58F7D /* ExplorerAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerAPIService.swift; sourceTree = "<group>"; };
+		67E51E6E2D0862BF00A58F7D /* ExplorerMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerMapView.swift; sourceTree = "<group>"; };
+		67E51E702D13634A00A58F7D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		67E51E722D13657C00A58F7D /* PlacesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesResponse.swift; sourceTree = "<group>"; };
+		67E51E752D136CB100A58F7D /* CLLocationCoordinate2D+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Extensions.swift"; sourceTree = "<group>"; };
+		67E51E772D13702A00A58F7D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		67F8CC9A2C79588000D49651 /* DallasWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DallasWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F8CC9D2C79588000D49651 /* DallasWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DallasWay.swift; sourceTree = "<group>"; };
+		67F8CC9F2C79588000D49651 /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		67F8CCA12C79588200D49651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67F8CCA32C79588200D49651 /* DallasWay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DallasWay.entitlements; sourceTree = "<group>"; };
+		67F8CCA52C79588200D49651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67F8CCAB2C79588200D49651 /* DallasWayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DallasWayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F8CCB52C79588200D49651 /* DallasWayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DallasWayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F8CCE82C795EEA00D49651 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		67F8CCEA2C795F8F00D49651 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67F8CC972C79588000D49651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F8CCA82C79588200D49651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F8CCB22C79588200D49651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E51E742D136C9E00A58F7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67E51E752D136CB100A58F7D /* CLLocationCoordinate2D+Extensions.swift */,
+				67E51E772D13702A00A58F7D /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		67F8CC912C79588000D49651 = {
+			isa = PBXGroup;
+			children = (
+				67F8CC9C2C79588000D49651 /* DallasWay */,
+				67F8CCAE2C79588200D49651 /* DallaspereTests */,
+				67F8CCB82C79588200D49651 /* DallaspereUITests */,
+				67F8CC9B2C79588000D49651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67F8CC9B2C79588000D49651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CC9A2C79588000D49651 /* DallasWay.app */,
+				67F8CCAB2C79588200D49651 /* DallasWayTests.xctest */,
+				67F8CCB52C79588200D49651 /* DallasWayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F8CC9C2C79588000D49651 /* DallasWay */ = {
+			isa = PBXGroup;
+			children = (
+				67E51E742D136C9E00A58F7D /* Extensions */,
+				67F8CCCB2C795D7500D49651 /* Jobs */,
+				67F8CCCA2C795D6E00D49651 /* News */,
+				67F8CCC92C795D6400D49651 /* Events */,
+				67F8CCC82C795D5700D49651 /* Explore */,
+				67F8CC9D2C79588000D49651 /* DallasWay.swift */,
+				67F8CC9F2C79588000D49651 /* MainTabbedView.swift */,
+				67F8CCA12C79588200D49651 /* Assets.xcassets */,
+				67F8CCA32C79588200D49651 /* DallasWay.entitlements */,
+				67F8CCA42C79588200D49651 /* Preview Content */,
+			);
+			path = DallasWay;
+			sourceTree = "<group>";
+		};
+		67F8CCA42C79588200D49651 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CCA52C79588200D49651 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67F8CCAE2C79588200D49651 /* DallaspereTests */ = {
+			isa = PBXGroup;
+			children = (
+				67BC92622C8984F0003D6C18 /* DallasWayTests.swift */,
+			);
+			path = DallaspereTests;
+			sourceTree = "<group>";
+		};
+		67F8CCB82C79588200D49651 /* DallaspereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67BC92642C898508003D6C18 /* DallasWayTests.swift */,
+				67BC92652C898508003D6C18 /* DallasWayUITestsLaunchTests.swift */,
+			);
+			path = DallaspereUITests;
+			sourceTree = "<group>";
+		};
+		67F8CCC82C795D5700D49651 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CCCF2C795D9E00D49651 /* WebService */,
+				67F8CCCE2C795D9300D49651 /* Model */,
+				67F8CCCD2C795D8D00D49651 /* ViewModel */,
+				67F8CCCC2C795D8400D49651 /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		67F8CCC92C795D6400D49651 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CCDF2C795E8100D49651 /* WebService */,
+				67F8CCDE2C795E7C00D49651 /* ViewModel */,
+				67F8CCDD2C795E7700D49651 /* View */,
+				67F8CCDC2C795E7000D49651 /* Model */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		67F8CCCA2C795D6E00D49651 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CCE32C795EA900D49651 /* WebService */,
+				67F8CCE22C795EA300D49651 /* ViewModel */,
+				67F8CCE12C795E9E00D49651 /* View */,
+				67F8CCE02C795E9900D49651 /* Model */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		67F8CCCB2C795D7500D49651 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CCE72C795EC200D49651 /* WebService */,
+				67F8CCE62C795EBC00D49651 /* ViewModel */,
+				67F8CCE52C795EB700D49651 /* View */,
+				67F8CCE42C795EB200D49651 /* Model */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		67F8CCCC2C795D8400D49651 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CCE82C795EEA00D49651 /* ExploreView.swift */,
+				67E51E6E2D0862BF00A58F7D /* ExplorerMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67F8CCCD2C795D8D00D49651 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67F8CCEA2C795F8F00D49651 /* ExploreViewModel.swift */,
+				67E51E702D13634A00A58F7D /* LocationManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67F8CCCE2C795D9300D49651 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67E51E722D13657C00A58F7D /* PlacesResponse.swift */,
+				672AA4FE2D169A150092FF63 /* PlaceTips.swift */,
+				672AA4FC2D1699C30092FF63 /* PlaceImages.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67F8CCCF2C795D9E00D49651 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				67E51E6C2CFE0B6200A58F7D /* ExplorerAPIService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		67F8CCDC2C795E7000D49651 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67F8CCDD2C795E7700D49651 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67F8CCDE2C795E7C00D49651 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67F8CCDF2C795E8100D49651 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		67F8CCE02C795E9900D49651 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67F8CCE12C795E9E00D49651 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67F8CCE22C795EA300D49651 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67F8CCE32C795EA900D49651 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		67F8CCE42C795EB200D49651 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67F8CCE52C795EB700D49651 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67F8CCE62C795EBC00D49651 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		67F8CCE72C795EC200D49651 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67F8CC992C79588000D49651 /* DallasWay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F8CCBF2C79588200D49651 /* Build configuration list for PBXNativeTarget "DallasWay" */;
+			buildPhases = (
+				67F8CC962C79588000D49651 /* Sources */,
+				67F8CC972C79588000D49651 /* Frameworks */,
+				67F8CC982C79588000D49651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DallasWay;
+			productName = Dallaspere;
+			productReference = 67F8CC9A2C79588000D49651 /* DallasWay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67F8CCAA2C79588200D49651 /* DallasWayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F8CCC22C79588200D49651 /* Build configuration list for PBXNativeTarget "DallasWayTests" */;
+			buildPhases = (
+				67F8CCA72C79588200D49651 /* Sources */,
+				67F8CCA82C79588200D49651 /* Frameworks */,
+				67F8CCA92C79588200D49651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67F8CCAD2C79588200D49651 /* PBXTargetDependency */,
+			);
+			name = DallasWayTests;
+			productName = DallaspereTests;
+			productReference = 67F8CCAB2C79588200D49651 /* DallasWayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67F8CCB42C79588200D49651 /* DallasWayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F8CCC52C79588200D49651 /* Build configuration list for PBXNativeTarget "DallasWayUITests" */;
+			buildPhases = (
+				67F8CCB12C79588200D49651 /* Sources */,
+				67F8CCB22C79588200D49651 /* Frameworks */,
+				67F8CCB32C79588200D49651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67F8CCB72C79588200D49651 /* PBXTargetDependency */,
+			);
+			name = DallasWayUITests;
+			productName = DallaspereUITests;
+			productReference = 67F8CCB52C79588200D49651 /* DallasWayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67F8CC922C79588000D49651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					67F8CC992C79588000D49651 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					67F8CCAA2C79588200D49651 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 67F8CC992C79588000D49651;
+					};
+					67F8CCB42C79588200D49651 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 67F8CC992C79588000D49651;
+					};
+				};
+			};
+			buildConfigurationList = 67F8CC952C79588000D49651 /* Build configuration list for PBXProject "DallasWay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67F8CC912C79588000D49651;
+			productRefGroup = 67F8CC9B2C79588000D49651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67F8CC992C79588000D49651 /* DallasWay */,
+				67F8CCAA2C79588200D49651 /* DallasWayTests */,
+				67F8CCB42C79588200D49651 /* DallasWayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67F8CC982C79588000D49651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F8CCA62C79588200D49651 /* Preview Assets.xcassets in Resources */,
+				67F8CCA22C79588200D49651 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F8CCA92C79588200D49651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F8CCB32C79588200D49651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67F8CC962C79588000D49651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F8CCEB2C795F8F00D49651 /* ExploreViewModel.swift in Sources */,
+				67E51E762D136CB100A58F7D /* CLLocationCoordinate2D+Extensions.swift in Sources */,
+				67E51E6F2D0862BF00A58F7D /* ExplorerMapView.swift in Sources */,
+				67F8CCA02C79588000D49651 /* MainTabbedView.swift in Sources */,
+				67E51E712D13634A00A58F7D /* LocationManager.swift in Sources */,
+				67F8CCE92C795EEA00D49651 /* ExploreView.swift in Sources */,
+				67F8CC9E2C79588000D49651 /* DallasWay.swift in Sources */,
+				67E51E732D13657C00A58F7D /* PlacesResponse.swift in Sources */,
+				67E51E782D13702A00A58F7D /* View+Extensions.swift in Sources */,
+				672AA4FD2D1699C30092FF63 /* PlaceImages.swift in Sources */,
+				672AA4FF2D169A150092FF63 /* PlaceTips.swift in Sources */,
+				67E51E6D2CFE0B6200A58F7D /* ExplorerAPIService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F8CCA72C79588200D49651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC92632C8984F0003D6C18 /* DallasWayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F8CCB12C79588200D49651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BC92662C898508003D6C18 /* DallasWayTests.swift in Sources */,
+				67BC92672C898508003D6C18 /* DallasWayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67F8CCAD2C79588200D49651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67F8CC992C79588000D49651 /* DallasWay */;
+			targetProxy = 67F8CCAC2C79588200D49651 /* PBXContainerItemProxy */;
+		};
+		67F8CCB72C79588200D49651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67F8CC992C79588000D49651 /* DallasWay */;
+			targetProxy = 67F8CCB62C79588200D49651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67F8CCBD2C79588200D49651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67F8CCBE2C79588200D49651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		67F8CCC02C79588200D49651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DallasWay/DallasWay.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DallasWay/Preview Content\"";
+				DEVELOPMENT_TEAM = KRKLF7GG63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide personalized features.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide personalized features.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyadav.com.DallasWay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67F8CCC12C79588200D49651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DallasWay/DallasWay.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DallasWay/Preview Content\"";
+				DEVELOPMENT_TEAM = KRKLF7GG63;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to provide personalized features.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide personalized features.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyadav.com.DallasWay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67F8CCC32C79588200D49651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyadav.com.DallaspereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DallasWay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DallasWay";
+			};
+			name = Debug;
+		};
+		67F8CCC42C79588200D49651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyadav.com.DallaspereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DallasWay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DallasWay";
+			};
+			name = Release;
+		};
+		67F8CCC62C79588200D49651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyadav.com.DallaspereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dallaspere;
+			};
+			name = Debug;
+		};
+		67F8CCC72C79588200D49651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyadav.com.DallaspereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dallaspere;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F8CC952C79588000D49651 /* Build configuration list for PBXProject "DallasWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F8CCBD2C79588200D49651 /* Debug */,
+				67F8CCBE2C79588200D49651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F8CCBF2C79588200D49651 /* Build configuration list for PBXNativeTarget "DallasWay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F8CCC02C79588200D49651 /* Debug */,
+				67F8CCC12C79588200D49651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F8CCC22C79588200D49651 /* Build configuration list for PBXNativeTarget "DallasWayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F8CCC32C79588200D49651 /* Debug */,
+				67F8CCC42C79588200D49651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F8CCC52C79588200D49651 /* Build configuration list for PBXNativeTarget "DallasWayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F8CCC62C79588200D49651 /* Debug */,
+				67F8CCC72C79588200D49651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67F8CC922C79588000D49651 /* Project object */;
+}
