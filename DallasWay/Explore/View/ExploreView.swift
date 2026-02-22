@@ -16,8 +16,6 @@ struct AnnotationItem: Identifiable {
 
 struct ExploreView: View {
     
-    @State private var selectedTab = 0
-    @State private var selectedPlace: Place?
     @State private var viewModel = ExploreViewModel()
     
     var body: some View {
@@ -25,66 +23,52 @@ struct ExploreView: View {
         VStack {
             Map(coordinateRegion: $viewModel.region, showsUserLocation: true, annotationItems: viewModel.places) { place in
                 MapAnnotation(coordinate: place.coordinate) {
-                    Button(action: {
-                        viewModel.fetchPlaceDetails(placeid: place.id) {
-                            selectedPlace = place
-                        }
-                    }) {
-                        VStack {
-                            Image(systemName: "mappin")
-                                .resizable()
-                                .frame(width: 12, height: 30)
-                                .foregroundColor(.red)
-                                .onTapGesture {
-                                    viewModel.fetchPlaceDetails(placeid: place.id) {
-                                        selectedPlace = place
-                                    }
+                    VStack {
+                        Image(systemName: "mappin")
+                            .resizable()
+                            .frame(width: 12, height: 30)
+                            .foregroundColor(.red)
+                            .onTapGesture {
+                                viewModel.fetchPlaceDetails(placeid: place.id) {
+                                    viewModel.selectedPlace = place
                                 }
-                        }
+                            }
                     }
                 }
             }
             .ignoresSafeArea()
-            .bottomSheet(presentationDetents: [.medium, .large], isPresented: .constant(true), sheetCornerRadius: 20, isTransparentBG: true) {
+            .bottomSheet(presentationDetents: [.medium, .large, .height(70)], isPresented: .constant(true), sheetCornerRadius: 20, isTransparentBG: true) {
                 ScrollView(.vertical, content: {
-                    if selectedPlace != nil {
-                        VStack {
-                            // Segmented Control
-                            Picker("Select Tab", selection: $selectedTab) {
-                                Text("Images").tag(0)
-                                Text("Tips").tag(1)
-                            }
-                            .pickerStyle(SegmentedPickerStyle())
-                            .padding(.vertical)
-                            
-                            // Content based on selected segment
-                            if selectedTab == 0 {
-                                imagesList()
-                            } else {
-                                reviewsList()
-                            }
-                            
-                            Spacer()
-                        }
-                        .padding()
-                        .background {
-                            Rectangle()
-                                .fill(.ultraThinMaterial)
-                                .ignoresSafeArea()
-                        }
+                    if let _selectedPlace = viewModel.selectedPlace {
+                        selectedPlaceView(selectedPlace: _selectedPlace)
                     } else {
                         VStack(spacing: 15) {
-                            locationsList()
+                            switch viewModel.exploreSheetState {
+                            case .loading:
+                                ProgressView("Loading...")
+                                    .progressViewStyle(CircularProgressViewStyle())
+                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            case .error:
+                                Text("We cannot fetch data at this time. Please try later.")
+                                    .foregroundColor(.red)
+                                    .padding()
+                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            case .empty:
+                                Text("No data available")
+                                    .foregroundColor(.gray)
+                                    .padding()
+                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            case .data:
+                                locationsList()
+                            }
                         }
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .padding()
                         .padding(.top)
-                        .background {
-                            Rectangle()
-                                .fill(.ultraThinMaterial)
-                                .ignoresSafeArea()
-                        }
+                        .background(Color(UIColor.systemBackground))
                     }
                 })
+                .background(Color(UIColor.systemBackground))
             } onDismiss: {}
         }
         .onAppear {
@@ -99,7 +83,7 @@ struct ExploreView: View {
                 PlaceRowView(place: place)
                     .onTapGesture {
                         viewModel.fetchPlaceDetails(placeid: place.id) {
-                            selectedPlace = place
+                            viewModel.selectedPlace = place
                         }
                     }
             }
@@ -153,6 +137,89 @@ struct ExploreView: View {
         
         Spacer()
     }
+    
+    @ViewBuilder
+    func selectedPlaceView(selectedPlace: Place) -> some View {
+        
+        VStack {
+            HStack(spacing: 8) {
+                Button(action: {
+                    viewModel.selectedPlace = nil
+                }, label: {
+                    Image(systemName: "chevron.left")
+                        .font(.system(size: 20, weight: .bold)) // Back button icon
+                        .foregroundColor(.secondary)
+                })
+
+                Text(selectedPlace.name)
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(.primary)
+
+                Spacer() // Pushes the content to align horizontally
+            }
+
+            HStack(alignment: .top, spacing: 8) {
+                Text(selectedPlace.location.formattedAddress)
+                    .font(.callout)
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(.secondary)
+
+
+                Spacer()
+
+                Button(action: {
+                    viewModel.openAppleMaps(to: selectedPlace.coordinate)
+                }, label: {
+                    Image(systemName: "location.fill")
+                        .font(.system(size: 20, weight: .bold))
+                        .tint(.blue)
+                })
+            }
+
+            // Segmented Control
+            Picker("Select Tab", selection: $viewModel.selectedTab) {
+                Text("Images").tag(0)
+                Text("Tips").tag(1)
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .padding(.vertical)
+
+            // Content based on selected segment
+            if viewModel.selectedTab == 0 {
+                VStack {
+                    if viewModel.imageURLs.isEmpty {
+                        Text("No Images Available")
+                            .foregroundColor(.gray)
+                            .padding()
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    } else {
+                        imagesList()
+                    }
+                }
+            } else {
+                VStack {
+                    if viewModel.imageURLs.isEmpty {
+                        Text("No Reviews Available")
+                            .foregroundColor(.gray)
+                            .padding()
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    } else {
+                        reviewsList()
+                    }
+                }
+            }
+
+            Spacer()
+        }
+        .padding()
+        .background {
+            Rectangle()
+                .fill(.ultraThinMaterial)
+                .ignoresSafeArea()
+        }
+    }
 }
 
 struct PlaceRowView: View {
@@ -194,3 +261,5 @@ struct PlaceRowView: View {
 #Preview {
     ExploreView()
 }
+
+

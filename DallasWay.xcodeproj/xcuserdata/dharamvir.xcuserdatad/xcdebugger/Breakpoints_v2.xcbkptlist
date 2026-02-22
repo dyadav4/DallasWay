@@ -14,8 +14,8 @@
             filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "fetchPlaces()"
             landmarkType = "7">
             <Locations>
@@ -48,69 +48,6 @@
                   startingLineNumber = "30"
                   endingLineNumber = "30"
                   offsetFromSymbolStart = "324">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "863B64B6-BA5F-46F0-8DD1-DC69017FF00C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "fetchPlaces()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "863B64B6-BA5F-46F0-8DD1-DC69017FF00C - 279a338c46e067fd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; () in DallasWay.ExploreViewModel.fetchPlaces() -&gt; ()"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/ViewModel/ExploreViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "296">
-               </Location>
-               <Location
-                  uuid = "863B64B6-BA5F-46F0-8DD1-DC69017FF00C - 279a338c46e067fd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; () in DallasWay.ExploreViewModel.fetchPlaces() -&gt; ()"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/ViewModel/ExploreViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "332">
-               </Location>
-               <Location
-                  uuid = "863B64B6-BA5F-46F0-8DD1-DC69017FF00C - 279a338c46e067bf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; () in DallasWay.ExploreViewModel.fetchPlaces() -&gt; ()"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/ViewModel/ExploreViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "232">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -237,8 +174,8 @@
             filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "setupLocationManager()"
             landmarkType = "7">
          </BreakpointContent>
@@ -253,8 +190,8 @@
             filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "setupLocationManager()"
             landmarkType = "7">
             <Locations>
@@ -301,227 +238,26 @@
             filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "setupLocationManager()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "28C61BB9-634A-49C9-9FB6-CBC5E56CC393"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "setupLocationManager()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1CBEC274-E106-466B-993B-65B1B98120F5"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DallasWay/Explore/View/ExploreView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "1CBEC274-E106-466B-993B-65B1B98120F5 - 3241a38b56d40fa5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.bottomSheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(presentationDetents: Swift.Set&lt;SwiftUI.PresentationDetent&gt;, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, dragIndicator: SwiftUI.Visibility, sheetCornerRadius: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, largestUndimmedIdentifier: __C.UISheetPresentationControllerDetentIdentifier, isTransparentBG: Swift.Bool, interactiveDisabled: Swift.Bool, content: () -&gt; &#x3c4;_1_0, onDismiss: () -&gt; ()) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "1CBEC274-E106-466B-993B-65B1B98120F5 - 425b7c4ed78818ab"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.bottomSheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(presentationDetents: Swift.Set&lt;SwiftUI.PresentationDetent&gt;, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, dragIndicator: SwiftUI.Visibility, sheetCornerRadius: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, largestUndimmedIdentifier: __C.UISheetPresentationControllerDetentIdentifier, isTransparentBG: Swift.Bool, interactiveDisabled: Swift.Bool, content: () -&gt; &#x3c4;_1_0, onDismiss: () -&gt; ()) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "1CBEC274-E106-466B-993B-65B1B98120F5 - b2f2661fd09052b1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.bottomSheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(presentationDetents: Swift.Set&lt;SwiftUI.PresentationDetent&gt;, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, dragIndicator: SwiftUI.Visibility, sheetCornerRadius: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, largestUndimmedIdentifier: __C.UISheetPresentationControllerDetentIdentifier, isTransparentBG: Swift.Bool, interactiveDisabled: Swift.Bool, content: () -&gt; &#x3c4;_1_0, onDismiss: () -&gt; ()) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "1CBEC274-E106-466B-993B-65B1B98120F5 - 486959ababd2f688"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.bottomSheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(presentationDetents: Swift.Set&lt;SwiftUI.PresentationDetent&gt;, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, dragIndicator: SwiftUI.Visibility, sheetCornerRadius: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, largestUndimmedIdentifier: __C.UISheetPresentationControllerDetentIdentifier, isTransparentBG: Swift.Bool, interactiveDisabled: Swift.Bool, content: () -&gt; &#x3c4;_1_0, onDismiss: () -&gt; ()) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "1CBEC274-E106-466B-993B-65B1B98120F5 - 8c93025b449e2699"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "1CBEC274-E106-466B-993B-65B1B98120F5 - 20ec0062048ad7d1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "232">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "515D1E47-F307-44BB-99DB-B0130E8420AA"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DallasWay/Explore/View/ExploreView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "515D1E47-F307-44BB-99DB-B0130E8420AA - 5deb6b89f4ba0fcc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.bottomSheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(presentationDetents: Swift.Set&lt;SwiftUI.PresentationDetent&gt;, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, dragIndicator: SwiftUI.Visibility, sheetCornerRadius: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, largestUndimmedIdentifier: __C.UISheetPresentationControllerDetentIdentifier, isTransparentBG: Swift.Bool, interactiveDisabled: Swift.Bool, content: () -&gt; &#x3c4;_1_0, onDismiss: () -&gt; ()) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "588">
-               </Location>
-               <Location
-                  uuid = "515D1E47-F307-44BB-99DB-B0130E8420AA - 281df3bb4d1efe9a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.bottomSheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(presentationDetents: Swift.Set&lt;SwiftUI.PresentationDetent&gt;, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, dragIndicator: SwiftUI.Visibility, sheetCornerRadius: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, largestUndimmedIdentifier: __C.UISheetPresentationControllerDetentIdentifier, isTransparentBG: Swift.Bool, interactiveDisabled: Swift.Bool, content: () -&gt; &#x3c4;_1_0, onDismiss: () -&gt; ()) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "515D1E47-F307-44BB-99DB-B0130E8420AA - d525899e1821a0c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.bottomSheet&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(presentationDetents: Swift.Set&lt;SwiftUI.PresentationDetent&gt;, isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, dragIndicator: SwiftUI.Visibility, sheetCornerRadius: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, largestUndimmedIdentifier: __C.UISheetPresentationControllerDetentIdentifier, isTransparentBG: Swift.Bool, interactiveDisabled: Swift.Bool, content: () -&gt; &#x3c4;_1_0, onDismiss: () -&gt; ()) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "232">
-               </Location>
-               <Location
-                  uuid = "515D1E47-F307-44BB-99DB-B0130E8420AA - 74a9e5b23a4ffba7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "515D1E47-F307-44BB-99DB-B0130E8420AA - 82d1f21923119ef4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in closure #1 () -&gt; SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt; in closure #1 (DallasWay.Place) -&gt; _MapKit_SwiftUI.MapAnnotation&lt;SwiftUI.Button&lt;SwiftUI.VStack&lt;&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt;&gt;&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0 in DallasWay.ExploreView.body.getter : some"
-                  moduleName = "DallasWay"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "232">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -534,8 +270,8 @@
             filePath = "DallasWay/Explore/View/ExploreView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
             landmarkName = "locationsList()"
             landmarkType = "7">
             <Locations>

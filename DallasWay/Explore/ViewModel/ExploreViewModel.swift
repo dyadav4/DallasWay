@@ -5,21 +5,32 @@
 //  Created by Dharamvir Yadav on 8/23/24.
 //
 
-import Foundation
+import SwiftUI
 import MapKit
 
 @Observable
 class ExploreViewModel {
-    var isLoading = false
+    var selectedTab = 0
     var reviews: PlaceTips = []
     var imageURLs: PlaceImages = []
-    var errorMessage: String? = nil
+    var exploreSheetState: SheetPlacesState = .loading
     var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 32.779167, longitude: -96.808891), latitudinalMeters: 100000, longitudinalMeters: 100000)
     
     var places: [Place] = [] {
         didSet {
             let coordinates = places.map { $0.coordinate }
             setRegionForCoordinates(coordinates)
+        }
+    }
+    
+    var selectedPlace: Place? {
+        didSet {
+            if let selectedPlace {
+                updateRegion(to: selectedPlace.coordinate)
+            } else {
+                let coordinates = places.map { $0.coordinate }
+                setRegionForCoordinates(coordinates)
+            }
         }
     }
     
@@ -32,40 +43,51 @@ class ExploreViewModel {
         locationManager.userLocationHandler = { [weak self] location in
             guard let self = self else { return }
             self.userLocation = location
-//            self.fetchPlaces()
-            self.sortPlaces(of: Place.places)
+            self.fetchPlaces()
         }
         
         locationManager.locationErrorHandler = { [weak self] error in
             guard let self = self else { return }
-            self.errorMessage = "Error: \(error)"
+            self.fetchPlaces()
         }
         
         locationManager.startUpdatingLocation()
     }
     
     private func fetchPlaces() {
-        isLoading = true
-        errorMessage = nil
+        exploreSheetState = .loading
         
         service.fetchPlaces() { result in
             DispatchQueue.main.async { [weak self] in
-                guard let self else { return }
-                self.isLoading = false
+                guard let self else {
+                    self?.exploreSheetState = .error
+                    return
+                }
                 
                 switch result {
                 case .success(let fetchedPlaces):
-                    guard let places = fetchedPlaces?.results else { return }
-                    print(places)
+                    guard let places = fetchedPlaces?.results else {
+                        exploreSheetState = .error
+                        return
+                    }
+                    
+                    if places.isEmpty {
+                        exploreSheetState = .empty
+                        return
+                    }
+                    
+                    exploreSheetState = .data
                     sortPlaces(of: places)
-                case .failure(let error):
-                    self.errorMessage = "Error: \(error.localizedDescription)"
+                case .failure:
+                    exploreSheetState = .error
                 }
             }
         }
     }
     
     func fetchPlaceDetails(placeid: String, completion: @escaping () -> Void) {
+        exploreSheetState = .loading
+        
         let dispatchGroup = DispatchGroup() // Create a DispatchGroup to synchronize tasks
 
         var fetchedImages: PlaceImages = []
@@ -98,6 +120,7 @@ class ExploreViewModel {
         // Notify when all tasks are complete
         dispatchGroup.notify(queue: .main) { [weak self] in
             guard let self else { return }
+            self.exploreSheetState = .data
             self.sortImages(images: &fetchedImages)
             self.sortTips(tips: &fetchedTips)
             completion()
@@ -145,6 +168,7 @@ class ExploreViewModel {
     }
     
     private func sortPlaces(of places: [Place]) {
+        
         guard let userLocation else {
             self.places = places
             return
@@ -180,4 +204,28 @@ class ExploreViewModel {
         let distanceInMiles = distanceInMeters / 1609.344 // Convert meters to miles
         return distanceInMiles.rounded(toPlaces: 2)
     }
+    
+    private func updateRegion(to coordinate: CLLocationCoordinate2D) {
+        withAnimation {
+            region = MKCoordinateRegion(
+                center: coordinate,
+                span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02)
+            )
+        }
+    }
+    
+    func openAppleMaps(to coordinate: CLLocationCoordinate2D) {
+        let destination  = MKMapItem(placemark: MKPlacemark(coordinate: coordinate))
+        let options: [String: Any] = [
+            MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving
+        ]
+        destination.openInMaps(launchOptions: options)
+    }
+}
+
+enum SheetPlacesState {
+    case loading
+    case error
+    case empty
+    case data
 }

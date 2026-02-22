@@ -26,15 +26,20 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:Dallas Way.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO"
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "67F8CCAA2C79588200D49651"
+               BlueprintIdentifier = "672FA2F22D408D3800BD2CFC"
                BuildableName = "DallasWayTests.xctest"
                BlueprintName = "DallasWayTests"
                ReferencedContainer = "container:DallasWay.xcodeproj">
@@ -48,6 +53,17 @@
                BlueprintIdentifier = "67F8CCB42C79588200D49651"
                BuildableName = "DallasWayUITests.xctest"
                BlueprintName = "DallasWayUITests"
+               ReferencedContainer = "container:DallasWay.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "672FA2F22D408D3800BD2CFC"
+               BuildableName = "DallasWayTests.xctest"
+               BlueprintName = "DallasWayTests"
                ReferencedContainer = "container:DallasWay.xcodeproj">
             </BuildableReference>
          </TestableReference>

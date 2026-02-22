@@ -105,7 +105,6 @@ class ExplorerAPIService {
             }
         }.resume()
     }
-    
 }
 
 enum APIError: Error {

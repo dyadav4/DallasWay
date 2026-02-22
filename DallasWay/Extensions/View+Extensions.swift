@@ -30,6 +30,9 @@ extension View {
                     .presentationDetents(presentationDetents)
                     .presentationDragIndicator(dragIndicator)
                     .interactiveDismissDisabled(interactiveDisabled)
+                    .presentationBackgroundInteraction(
+                        .enabled(upThrough: .medium)
+                    )
                     .onAppear {
                         guard let windows = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return }
                         
@@ -46,5 +49,6 @@ extension View {
                         }
                     }
             }
+            .frame(maxHeight: .infinity)
     }
 }
