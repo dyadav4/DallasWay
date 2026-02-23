@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2C54DE00-C0E9-415E-8148-B5B01873C8CA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C1BD347-601C-43E4-8DE9-670B92696C75"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "fetchPlaces()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C1BD347-601C-43E4-8DE9-670B92696C75 - 279a338c46e06733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; () in DallasWay.ExploreViewModel.fetchPlaces() -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "716">
+               </Location>
+               <Location
+                  uuid = "3C1BD347-601C-43E4-8DE9-670B92696C75 - 279a338c46e06733"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; () in DallasWay.ExploreViewModel.fetchPlaces() -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B37F516-C89A-4AEF-9051-D6BB4FBB0343"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/WebService/ExplorerAPIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchPlaces(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B48A486-D683-4B86-8BCD-064C589B6706"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/WebService/ExplorerAPIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "fetchPlaces(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0B48A486-D683-4B86-8BCD-064C589B6706 - dc6f2c58fecc357e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DallasWay.ExplorerAPIService.fetchPlaces(completion: (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/WebService/ExplorerAPIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "0B48A486-D683-4B86-8BCD-064C589B6706 - dc6f2c58fecc357e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DallasWay.ExplorerAPIService.fetchPlaces(completion: (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/WebService/ExplorerAPIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63722A69-7B2F-4971-BDEB-E164B0900E06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/WebService/ExplorerAPIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "fetchPlaces(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63722A69-7B2F-4971-BDEB-E164B0900E06 - dc6f2c58fecc3597"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DallasWay.ExplorerAPIService.fetchPlaces(completion: (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/WebService/ExplorerAPIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "892">
+               </Location>
+               <Location
+                  uuid = "63722A69-7B2F-4971-BDEB-E164B0900E06 - dc6f2c58fecc3597"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DallasWay.ExplorerAPIService.fetchPlaces(completion: (Swift.Result&lt;Swift.Optional&lt;DallasWay.PlacesResponse&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/WebService/ExplorerAPIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3113EB80-A2E2-46B4-BA8B-6F0995AF25DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "setupLocationManager()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6600CC64-987B-4E82-8470-671AFF218DB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupLocationManager()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6600CC64-987B-4E82-8470-671AFF218DB8 - a6510930fe2147ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DallasWay.ExploreViewModel.setupLocationManager() -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "6600CC64-987B-4E82-8470-671AFF218DB8 - bda468ab12565a4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.CLLocation) -&gt; () in DallasWay.ExploreViewModel.setupLocationManager() -&gt; ()"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F14D894D-7C5E-45BC-87E8-9B8AB44CF9B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/ViewModel/ExploreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "setupLocationManager()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "515D1E47-F307-44BB-99DB-B0130E8420AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/View/ExploreView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F935E39-F817-41FB-ABA8-F8FD34FDCEEC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DallasWay/Explore/View/ExploreView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "locationsList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F935E39-F817-41FB-ABA8-F8FD34FDCEEC - d37e00867814d7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (DallasWay.Place) -&gt; DallasWay.PlaceRowView in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;DallasWay.Place&gt;, Swift.String, DallasWay.PlaceRowView&gt; in DallasWay.ExploreView.locationsList() -&gt; some"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "1F935E39-F817-41FB-ABA8-F8FD34FDCEEC - 6d6c555a33db42bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (DallasWay.Place) -&gt; &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;DallasWay.Place&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in DallasWay.ExploreView.locationsList() -&gt; some"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "1F935E39-F817-41FB-ABA8-F8FD34FDCEEC - 97a5937853f55143"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in closure #1 (DallasWay.Place) -&gt; &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;DallasWay.Place&gt;, Swift.String, &lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0&gt; in DallasWay.ExploreView.locationsList() -&gt; some"
+                  moduleName = "DallasWay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dharamvir/Desktop/DallasWay/DallasWay/Explore/View/ExploreView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

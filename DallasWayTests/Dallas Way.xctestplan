@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "5123232B-6B1C-47A1-AEF4-F6E3C837AEA8",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DallasWay.xcodeproj",
+        "identifier" : "672FA2F22D408D3800BD2CFC",
+        "name" : "DallasWayTests"
+      }
+    }
+  ],
+  "version" : 1
+}
